@@ -1,0 +1,9 @@
+:root {
+    --font: 'Roboto';
+    --background: #3a3c3a;
+    --green: #00a265;
+    --whitebackground: #494a47;
+    --graytext: #797c79;
+    --topbarbgc:#4b4b4b;
+    --swiper-pagination-color:var(--green)
+}

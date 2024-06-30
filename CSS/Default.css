@@ -1,0 +1,43 @@
+/*start default css file*/
+
+@import "./Variables.css";
+
+html {
+    box-sizing: border-box;
+    font-size: 62%;
+}
+
+body {
+    font-family: var(--primaryfont) !important;
+    line-height: 1.6;
+    font-size: 1.6rem;
+
+
+}
+
+
+*,
+::before,
+::after {
+    outline: none;
+    box-sizing: inherit;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+    translate: all 400ms ease;
+}
+
+
+
+a:hover {
+    color: var(--green)
+}
+
+i {
+    user-select: none;
+}
+
+/*finish default css file*/
